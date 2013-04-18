@@ -1,5 +1,5 @@
 runtime 'ruby'
 exec 'ffmpeg.rb'
+
 dir 'bin'
-dir 'data'
 
