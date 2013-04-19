@@ -1,0 +1,6 @@
+runtime 'ruby'
+exec 'ffmpeg_turn_key.rb'
+
+dir 'bin'
+
+gem 'aws-s3'
