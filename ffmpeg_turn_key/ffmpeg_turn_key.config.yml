@@ -1,4 +1,4 @@
 amazon:
-  access_key: ''
-  secret_key: ''
-  bucket: ''
+  access_key: 'Amazon Access Key ID'
+  secret_key: 'Amazon Secret Access Key'
+  bucket: 'Bucket Name'
