@@ -1,3 +1,9 @@
+# Converts video and uploads it to Amazon S3
+# Usage example:
+#$ iron_worker queue ffmpeg_turn_key -p '{
+#  "store_name":"iron_man.mp4",
+#  "video_url":"https://s3.amazonaws.com/iron-examples/video/iron_man_2_trailer_official.flv"
+#}'
 amazon:
   access_key: 'Amazon Access Key ID'
   secret_key: 'Amazon Secret Access Key'
