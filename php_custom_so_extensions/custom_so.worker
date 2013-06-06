@@ -1,0 +1,12 @@
+runtime 'binary'
+
+# Boilerplate code
+exec 'run.sh'
+file '__runner__.php'
+file 'php.ini'
+
+# Real worker file
+file 'custom_so.php'
+
+# Extensions
+dir 'modules'
