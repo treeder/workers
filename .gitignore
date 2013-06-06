@@ -1,2 +1,4 @@
 iron.json
 _*.yml
+.DS_Store
+.idea
