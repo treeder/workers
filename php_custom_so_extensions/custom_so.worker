@@ -1,7 +1,7 @@
 runtime 'binary'
 
 # Boilerplate code
-exec 'run.sh'
+exec '__runner__.sh'
 file '__runner__.php'
 file 'php.ini'
 
