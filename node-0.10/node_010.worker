@@ -1,0 +1,6 @@
+runtime "binary"
+exec "run.sh"
+file "run.js"
+file "node_helper.js"
+deb "https://launchpad.net/~chris-lea/+archive/node.js/+build/4936691/+files/nodejs_0.10.18-1chl1~precise1_amd64.deb"
+remote
