@@ -1,0 +1,4 @@
+runtime 'ruby'
+exec 'gemfile-example.rb'
+file 'Gemfile'
+build 'bundle install --standalone'
