@@ -1,0 +1,14 @@
+runtime 'binary'
+stack 'php-5.4'
+
+# Boilerplate code
+exec 'runner.sh'
+file '__runner__.php'
+file 'php.ini'
+
+# Real worker file
+file 'custom_so.php'
+
+# Extensions
+dir 'modules'
+
