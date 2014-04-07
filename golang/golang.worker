@@ -1,0 +1,9 @@
+runtime 'binary'
+
+# Primary app file
+file 'exec.go'
+
+
+exec 'run.sh'
+file 'build.sh'
+build 'sh ./build.sh'
