@@ -1,4 +1,6 @@
 runtime 'ruby'
 exec 'gemfile-example.rb'
+stack 'ruby-2.1'
+
 file 'Gemfile'
 build 'bundle install --standalone'
